@@ -1,11 +1,15 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022", "DOM"],
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "strict": true,
-    "jsx": "preserve",
-    "baseUrl": "."
+  "name": "pillarz-agent",
+  "private": true,
+  "type": "module",
+  "scripts": { 
+    "dev": "next dev", 
+    "build": "next build", 
+    "start": "next start" 
+  },
+  "dependencies": { 
+    "next": "14.2.5", 
+    "react": "18.2.0", 
+    "react-dom": "18.2.0" 
   }
 }
